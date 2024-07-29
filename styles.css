@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(176deg, #002061, transparent);
+    color: rgb(255, 255, 255);
+   }
+
+p.currentTemp {
+    font-size: xx-large;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #203a5ba1;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.item {
+    background-color: #203a5ba1;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 25px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+div#astro, div#current, div#more, div#searchbar, div#alert, div#air-quality, div#row-hide {
+    background-color: transparent;
+}
+
+div#hourly, div#forecast, div#astro, div#more {
+    text-align: center;
+}
+
+.col-6 {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.time {
+    white-space: nowrap;
+}
+
+i.weatherIcon {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+i.current-icon {
+    font-size: 100px;
+}
+
+.col.custom-col {
+    margin-top: 40px;
+}
+
+.col-12 {
+    padding-bottom: 15px;
+}
+
+p#bold {
+    font-weight: bold;
+}
+
+img {
+    filter: brightness(0) invert(1);
+    width: 75px;
+    height: 75px;
+    padding-bottom: 15px;
+}
