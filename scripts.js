@@ -1,4 +1,4 @@
-
+// Free version of API
 // Function to get weather based on user's current location
 function GetWeatherByCurrentLocation(key) {
     // Check if Geolocation is supported by the browser
